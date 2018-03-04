@@ -1,0 +1,22 @@
+{
+    "name": "mjerwin/clockwork-sms",
+    "description": "A PHP wrapper for Clockwork SMS API",
+    "homepage": "https://github.com/mjerwin/clockwork-sms",
+    "license": "MIT",
+    "keywords": [
+    ],
+    "require": {
+        "php": ">=5.3",
+        "php-curl-class/php-curl-class": "2.1.*"
+    },
+    "require-dev": {
+    },
+    "replace": {
+    },
+    "type": "library",
+    "autoload": {
+        "psr-0": {
+            "MJErwin\\Clockwork": "src/"
+        }
+    }
+}

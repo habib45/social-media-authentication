@@ -1,0 +1,27 @@
+{
+    "name": "vluzrmos/slack-api",
+    "description": "Wrapper for Slack.com WEB API.",
+    "license": "DBAD",
+    "keywords":["Laravel", "Lumen", "Slack"],
+    "authors": [
+        {
+            "name": "Vagner do Carmo",
+            "email": "vluzrmos@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "~5.0",
+        "illuminate/cache": "~5.0",
+        "guzzlehttp/guzzle":"~5.3|~6.0"
+    },  
+    "autoload": {
+        "psr-4": {
+            "Vluzrmos\\": "src/Vluzrmos/"
+        },
+        "files" : [
+            "src/Vluzrmos/SlackApi/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev"
+}
